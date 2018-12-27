@@ -1,0 +1,7 @@
+language: cpp
+dist: xenial
+compiler: gcc
+os: linux
+script:
+- g++ example/Examples.cpp -std=c++11 -o ExcelFormat_example
+- ./ExcelFormat_example
