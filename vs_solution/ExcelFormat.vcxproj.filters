@@ -14,23 +14,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicExcel.cpp">
+    <ClCompile Include="..\example\Examples.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Examples.cpp">
+    <ClCompile Include="..\src\BasicExcel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExcelFormat.cpp">
+    <ClCompile Include="..\src\ExcelFormat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BasicExcel.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ExcelFormat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="docu\codeproject_ExcelFormat.html">
@@ -42,5 +34,13 @@
     <None Include="docu\ExcelFormat\example4.png">
       <Filter>docu</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ExcelFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BasicExcel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
