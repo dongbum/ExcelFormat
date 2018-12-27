@@ -1,4 +1,4 @@
-/*
+﻿/*
 	ExcelFormat.cpp
 
 	Copyright (c) 2009, 2011 Martin Fuchs <martin-fuchs@gmx.net>

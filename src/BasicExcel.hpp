@@ -1,4 +1,4 @@
-// Created by Yap Chun Wei
+﻿// Created by Yap Chun Wei
 // Version 1.0 (20 April 2006)
 // Version 1.1 (22 April 2006)
 	// - Fixed bugs with compound files not being able to write files more than 65535 bytes.

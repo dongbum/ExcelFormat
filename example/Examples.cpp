@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	ExcelFormat Examples.cpp
 
 	Copyright (c) 2009, 2010, 2011 Martin Fuchs <martin-fuchs@gmx.net>
@@ -14,7 +14,7 @@
 	YOU CANNOT MAKE ANY USE OF THE WORK.
 */
 
-#include "ExcelFormat.h"
+#include "../src/ExcelFormat.h"
 
 using namespace ExcelFormat;
 
@@ -114,7 +114,7 @@ static void example2(const char* path)
 	font_header._options = EXCEL_FONT_STRUCK_OUT;
 
 	CellFormat fmt_header(fmt_mgr, font_header);
-	fmt_header.set_rotation(30); // rotate the header cell text 30° to the left
+	fmt_header.set_rotation(30); // rotate the header cell text 30?to the left
 
 	int row = 0;
 

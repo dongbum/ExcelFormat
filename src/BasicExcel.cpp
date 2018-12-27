@@ -1,4 +1,4 @@
-#include "ExcelFormat.h"
+﻿#include "ExcelFormat.h"
 
 #ifdef _MSC_VER
 #include <malloc.h>	// for alloca()

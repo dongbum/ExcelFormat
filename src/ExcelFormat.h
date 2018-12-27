@@ -1,4 +1,4 @@
-/*
+﻿/*
 	ExcelFormat.h
 
 	Copyright (c) 2009, 2010, 2011 Martin Fuchs <martin-fuchs@gmx.net>
