@@ -3,5 +3,5 @@ dist: xenial
 compiler: gcc
 os: linux
 script:
-- g++ example/Examples.cpp -std=c++11 -o ExcelFormat_example
+- g++ -std=c++11 -Wall -Wno-sign-compare -Wno-reorder -Wno-unused-function example/Examples.cpp -o ExcelFormat_example
 - ./ExcelFormat_example
