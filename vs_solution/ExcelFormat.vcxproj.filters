@@ -9,9 +9,6 @@
       <UniqueIdentifier>{91965510-bc42-48bc-b4fd-0d979fa5c869}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
-    <Filter Include="docu">
-      <UniqueIdentifier>{0b82e784-f28a-431b-bba1-2747f987d3e8}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\example\Examples.cpp">
@@ -23,17 +20,6 @@
     <ClCompile Include="..\src\ExcelFormat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="docu\codeproject_ExcelFormat.html">
-      <Filter>docu</Filter>
-    </None>
-    <None Include="docu\ExcelFormat\example1.png">
-      <Filter>docu</Filter>
-    </None>
-    <None Include="docu\ExcelFormat\example4.png">
-      <Filter>docu</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\ExcelFormat.h">

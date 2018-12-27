@@ -227,11 +227,6 @@
     <ClCompile Include="..\src\ExcelFormat.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="docu\codeproject_ExcelFormat.html" />
-    <None Include="docu\ExcelFormat\example1.png" />
-    <None Include="docu\ExcelFormat\example4.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\src\BasicExcel.hpp" />
     <ClInclude Include="..\src\ExcelFormat.h" />
   </ItemGroup>
