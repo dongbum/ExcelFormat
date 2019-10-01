@@ -12,13 +12,16 @@ Original author : Martin Fuchs
 Cross-platform library for Microsoft Excel
 
 ### Build
-Build on VS2015 ~~and GCC 4.8.4~~
+Build on VS2015 and GCC 7.4.0
+Tested on Windows 10 and Ubuntu Linux 18.04 (bionic)
 
 * Windows
   Open ```vs_solution/ExcelFormat.sln``` by Visual Studio
 
 * Linux
-  Not yet.
+  Run cmake command.
+  ```cmake CMakeLists.txt```
+  ```make```
 
 ### What's next
 * Build on Linux
