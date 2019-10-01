@@ -1,0 +1,16 @@
+CMAKE_MINIMUM_REQUIRED ( VERSION 3.10 )
+
+PROJECT ( "ExcelFormat" )
+
+SET ( CMAKE_BUILD_TYPE Debug )
+SET ( CMAKE_VERBOSE_MAKEFILE false )
+
+SET ( EXCELFORMAT_OUTPUT "ExcelFormat_Example" )
+
+SET ( EXCELFORMAT_SRC_FILES
+	src/BasicExcel.cpp
+	src/ExcelFormat.cpp
+	example/Examples.cpp
+	)
+
+ADD_EXECUTABLE ( ${EXCELFORMAT_OUTPUT} ${EXCELFORMAT_SRC_FILES} )
