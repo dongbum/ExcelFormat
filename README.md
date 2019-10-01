@@ -6,7 +6,19 @@ Fork from https://www.codeproject.com/Articles/42504/ExcelFormat-Library
 
 Original author : Martin Fuchs
 
-## Feature
+* This is not yet release version.
 
-## Build
-Build on VS2015 and GCC 4.8.4
+### Feature
+Cross-platform library for Microsoft Excel
+
+### Build
+Build on VS2015 ~~and GCC 4.8.4~~
+
+* Windows
+  Open ```vs_solution/ExcelFormat.sln``` by Visual Studio
+
+* Linux
+  Not yet.
+
+### What's next
+* Build on Linux

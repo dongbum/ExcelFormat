@@ -14,6 +14,7 @@
 	YOU CANNOT MAKE ANY USE OF THE WORK.
 */
 
+#include "../src/BasicExcel.hpp"
 #include "../src/ExcelFormat.h"
 
 using namespace ExcelFormat;
