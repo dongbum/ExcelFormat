@@ -1,7 +1,19 @@
 language: cpp
-dist: xenial
+dist: bionic
 compiler: gcc
 os: linux
+
+env:
+  global:
+  - MAKEFLAGS="-j 2"
+
+before_install:
+- pip install --user cpp-coveralls
+
 script:
-- g++ -std=c++11 -Wall -Wno-sign-compare -Wno-reorder -Wno-unused-function example/Examples.cpp -o ExcelFormat_example
-- ./ExcelFormat_example
+- cmake CMakeLists.txt
+- make
+- ./ExcelFormat_Example
+
+after_success:
+- coveralls --exclude vs_solution --exclude CMakeFiles --gcov-options '\-lp'
